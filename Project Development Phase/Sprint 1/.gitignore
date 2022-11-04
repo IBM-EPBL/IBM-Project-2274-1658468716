@@ -1,0 +1,8 @@
+# Add zip file to git excemption list
+*.zip 
+
+# Add dataset folder to excemption list
+Dataset/*
+
+# Add HDF5 files to excemption list
+*.h5
