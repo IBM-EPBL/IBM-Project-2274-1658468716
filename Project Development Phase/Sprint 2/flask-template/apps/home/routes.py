@@ -13,6 +13,16 @@ def index():
 
     return render_template('home/index.html', segment='index')
 
+@blueprint.route('/form-upload', methods=['POST'])
+@login_required
+def route_form():
+    return render_template('home/form-upload.html', segment='form-upload')
+
+@blueprint.route('/results', methods=['GET','POST'])
+@login_required
+def route_form():
+    return render_template('home/results.html', segment='form-upload')
+
 
 @blueprint.route('/<template>')
 @login_required
