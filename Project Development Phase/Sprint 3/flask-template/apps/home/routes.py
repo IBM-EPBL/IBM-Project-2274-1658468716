@@ -52,8 +52,7 @@ def upload():
         test_dl = np.expand_dims(test_dat, axis=0)
         pred = cnn.predict(test_dl)
         y_class = pred.argmax(axis=1)
-        class_idx = np.argmax(y_class)
-        result = label[class_idx]
+        result = label[y_class[0]]
         return render_template('home/form-upload.html', pred=result)
     return NULL
 
