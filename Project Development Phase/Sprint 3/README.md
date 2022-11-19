@@ -7,4 +7,4 @@
 - Google OAuth python script
 - Google OAuth JSON credentials file
 - IBM Cloud deployment IPYNB file
-- HDF5 file of the model
+- HDF5 file of the model  [Not included in GitHub due to large size]
