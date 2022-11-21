@@ -3,4 +3,4 @@ COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
 EXPOSE 5000
-RUN flask run
+ENTRYPOINT [ "python3", "-m", "flask", "run" ]
