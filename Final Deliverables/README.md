@@ -1,11 +1,11 @@
-# Sprint-4
+# Project Folder
 
 ### Files present/made:
 
 - Virtual environment script files (venv) [Not included in GitHub]
+- Jupyter notebook file of CNN model
 - Flask base templates [edited to work with model] binded with IBM Cloudant DB
-- Google OAuth python script
-- Google OAuth JSON credentials file
 - IBM Watson Studio deployment IPYNB file
-- HDF5 file of the model  [Not included in GitHub due to large size]
+- HDF5 file of the model [zipped]
 - Dockerfile for flask app
+- Helm charts for deployment
