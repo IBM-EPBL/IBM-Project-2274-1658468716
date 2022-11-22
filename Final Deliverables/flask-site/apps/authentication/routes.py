@@ -37,7 +37,6 @@ def login():
         # read form data
         username = request.form['username']
         password = request.form['password']
-        usertype = request.form['usertype']
 
         query = {'_id': {'$eq': username}}
 
@@ -73,12 +72,10 @@ def register():
         username = request.form['username']
         email = request.form['email']
         password = request.form['password']
-        usertype = request.form['usertype']
 
         data = {
             '_id': username,
             'email': email,
-            'usertype': usertype,
             'pass': password
         }
 
