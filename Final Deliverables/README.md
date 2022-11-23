@@ -9,3 +9,4 @@
 - HDF5 file of the model [zipped]
 - Dockerfile for flask app
 - Helm charts for deployment
+- Test reports (Load testing, Performance Testing, UAT)
