@@ -1,12 +1,18 @@
-# Project Folder
+# Source Code
 
 ### Files present/made:
 
-- Virtual environment script files (venv) [Not included in GitHub]
-- Jupyter notebook file of CNN model
-- Flask base templates [edited to work with model] binded with IBM Cloudant DB
-- IBM Watson Studio deployment IPYNB file
-- HDF5 file of the model [zipped]
-- Dockerfile for flask app
-- Helm charts for deployment
-- Test reports (Load testing, Performance Testing, UAT)
+- Model (Python)
+  - Dataset Import
+  - Image Preprocessing and Dataset Split
+  - Model Creation using Keras
+  - Model Training and Testing
+  - Results
+- Model (HDF5 files)
+  - HDF5 file of model
+- IBM Watson Deploy
+  - Code for deploying model to IBM Watson Studio (Japan)
+- flask-site
+  - Flask code
+  - Docker script file
+- Helm Charts

@@ -3,6 +3,6 @@
 ### Files/Folders present:
 - Dataset
 - Source Code
-- Test Report
+- Test Reports
 - Video Demo
   
